@@ -44,3 +44,15 @@ For pyqt5, pyrcc5 -o libs/resources.py resources.qrc
 python labelImg.py
 python labelImg.py [IMAGE_PATH] [PRE-DEFINED CLASS FILE]
 ```
+Veri işaretleme için ek [kaynak](https://www.youtube.com/watch?v=N8RLW2zRjyQ) olarak inceleyebilirsiniz.
+
+## Veri Ön İşleme
+Burada verilerin arttırılmasını ve işaretlerin verilerin train ve validation olarak ayrılmasını göreceğiz.
+
+Eğer fotoğraf sayımız ve çeşitliliğimiz istediğimiz kadar değilse;
+[data_augmentation.ipynb](https://github.com/muhammederem/yolov4/blob/main/data_augmentation.ipynb) dosyasını çalıştırarak verilerimizi arttırabiliriz. Buradaki parametreleri istediğimiz gibi değiştirebiliriz.
+
+İşaretlenen tüm fotoğraflar ve txt dosyaları tek bir klasörde toplandıktan sonra eğer fotoğraf türü olarak .jpg ve .png gibi birden fazla tür varsa;
+önce [rename_images.py](https://github.com/muhammederem/yolov4/blob/main/renname_images.py) scriptini çalıştırıyoruz.
+
+Son olarak [split.py]() dosyasını çalıştırarak verilerimizi 0.2 validation ve 0.8 training olmak üzere iki gruba ayırmış olacağız.
