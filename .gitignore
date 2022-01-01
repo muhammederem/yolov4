@@ -127,3 +127,8 @@ dmypy.json
 
 # Pyre type checker
 .pyre/
+
+# Trainign and Testin Images
+images_labels/
+train_.txt
+valid_.txt
