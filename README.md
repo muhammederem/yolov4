@@ -55,4 +55,4 @@ Eğer fotoğraf sayımız ve çeşitliliğimiz istediğimiz kadar değilse;
 İşaretlenen tüm fotoğraflar ve txt dosyaları tek bir klasörde toplandıktan sonra eğer fotoğraf türü olarak .jpg ve .png gibi birden fazla tür varsa;
 önce [rename_images.py](https://github.com/muhammederem/yolov4/blob/main/renname_images.py) scriptini çalıştırıyoruz.
 
-Son olarak [split.py]() dosyasını çalıştırarak verilerimizi 0.2 validation ve 0.8 training olmak üzere iki gruba ayırmış olacağız.
+Son olarak [split.py](https://github.com/muhammederem/yolov4/blob/main/split.py) dosyasını çalıştırarak verilerimizi 0.2 validation ve 0.8 training olmak üzere iki gruba ayırmış olacağız.
